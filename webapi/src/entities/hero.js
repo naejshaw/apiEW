@@ -1,9 +1,10 @@
 class Hero {
-    constructor({ id, name, age, power}) {
+    constructor({ id, name, email, phone, message}) {
         this.id = Math.floor(Math.random() * 100) + Date.now()
         this.name = name
-        this.age = age
-        this.power = power
+        this.email = email
+        this.phone = phone
+        this.message = message
     }
 
     isValid() {
